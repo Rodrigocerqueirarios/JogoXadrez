@@ -1,6 +1,6 @@
 ﻿using System;
 using tabuleiro;
-using xadrez_Console.Xadrez;
+using Xadrez;
 using tabuleiro.Enums;
 
 namespace Xadrez_Console

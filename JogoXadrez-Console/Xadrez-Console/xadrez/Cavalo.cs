@@ -2,7 +2,7 @@
 using tabuleiro;
 using tabuleiro.Enums;
 
-namespace xadrez_Console.Xadrez
+namespace Xadrez
 {
     class Cavalo : Peca
     {
