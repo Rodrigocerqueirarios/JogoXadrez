@@ -1,0 +1,6 @@
+C:\Rios\Estudo C#\Exercicios\O.O\JogoXadrez\JogoXadrez\JogoXadrez-Console\Xadrez-Console\bin\Debug\Xadrez-Console.exe.config
+C:\Rios\Estudo C#\Exercicios\O.O\JogoXadrez\JogoXadrez\JogoXadrez-Console\Xadrez-Console\bin\Debug\Xadrez-Console.exe
+C:\Rios\Estudo C#\Exercicios\O.O\JogoXadrez\JogoXadrez\JogoXadrez-Console\Xadrez-Console\bin\Debug\Xadrez-Console.pdb
+C:\Rios\Estudo C#\Exercicios\O.O\JogoXadrez\JogoXadrez\JogoXadrez-Console\Xadrez-Console\obj\Debug\Xadrez-Console.csprojResolveAssemblyReference.cache
+C:\Rios\Estudo C#\Exercicios\O.O\JogoXadrez\JogoXadrez\JogoXadrez-Console\Xadrez-Console\obj\Debug\Xadrez-Console.exe
+C:\Rios\Estudo C#\Exercicios\O.O\JogoXadrez\JogoXadrez\JogoXadrez-Console\Xadrez-Console\obj\Debug\Xadrez-Console.pdb
