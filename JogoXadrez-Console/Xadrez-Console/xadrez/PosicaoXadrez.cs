@@ -17,7 +17,7 @@ namespace xadrez
             Linha = linha;
         }
 
-        public Posicao ToPosicao ()
+        public Posicao ToPosicao()
         {
             return new Posicao(8 - Linha, Coluna - 'a');
         }

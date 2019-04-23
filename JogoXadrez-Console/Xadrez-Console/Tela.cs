@@ -31,7 +31,7 @@ namespace Xadrez_Console
                 Console.Write(8 - i + " ");
                 for (int j = 0; j < tab.Colunas; j++)
                 {
-                    if (posicoesPossiveis[i,j])
+                    if (posicoesPossiveis[i, j])
                     {
                         Console.BackgroundColor = fundoAlterado;
                     }
