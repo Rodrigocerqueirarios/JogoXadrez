@@ -4,9 +4,9 @@ using tabuleiro.Enums;
 
 namespace xadrez
 {
-    class Peao : Peca
+    class Peao// : Peca
     {
-        public Peao(Tabuleiro tab, Cor cor) : base(tab, cor)
+        public Peao(Tabuleiro tab, Cor cor)// : base(tab, cor)
         {
         }
 

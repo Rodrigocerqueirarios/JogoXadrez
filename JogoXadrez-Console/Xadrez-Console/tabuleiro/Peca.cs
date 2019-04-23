@@ -1,7 +1,7 @@
 ﻿using tabuleiro.Enums;
 namespace tabuleiro
 {
-    class Peca
+    abstract class Peca
     {
         public Posicao Posicao { get; set; }
         public Cor Cor { get; protected set; }
@@ -15,6 +15,8 @@ namespace tabuleiro
             Cor = cor;
             QtdMovimentos = 0;
         }
+
+        public abstract bool[,] MovimentosPossiveis();
 
         public void IncrementarQtdMovimento()
         {
