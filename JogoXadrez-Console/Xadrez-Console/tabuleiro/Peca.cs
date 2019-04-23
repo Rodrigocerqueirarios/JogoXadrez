@@ -8,12 +8,17 @@ namespace tabuleiro
         public int QtdMovimentos { get; protected set; }
         public Tabuleiro Tab { get; protected set; }
 
-        public Peca (Tabuleiro tab, Cor cor)
+        public Peca(Tabuleiro tab, Cor cor)
         {
             Posicao = null;
             Tab = tab;
             Cor = cor;
             QtdMovimentos = 0;
+        }
+
+        public void IncrementarQtdMovimento()
+        {
+            QtdMovimentos++;
         }
     }
 }
