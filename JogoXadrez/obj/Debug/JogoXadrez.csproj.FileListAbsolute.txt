@@ -1,1 +1,2 @@
 C:\Rios\Estudo C#\Exercicios\O.O\JogoXadrez\JogoXadrez\JogoXadrez\bin\Debug\JogoXadrez.exe.config
+C:\Rios\Estudo C#\Exercicios\O.O\JogoXadrez\JogoXadrez\JogoXadrez\obj\Debug\JogoXadrez.csprojResolveAssemblyReference.cache
