@@ -2,7 +2,7 @@
 using tabuleiro;
 using tabuleiro.Enums;
 
-namespace Xadrez
+namespace xadrez
 {
     class Torre : Peca
     {
