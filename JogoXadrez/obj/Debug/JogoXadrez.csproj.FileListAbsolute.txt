@@ -1,0 +1,1 @@
+C:\Rios\Estudo C#\Exercicios\O.O\JogoXadrez\JogoXadrez\JogoXadrez\bin\Debug\JogoXadrez.exe.config
