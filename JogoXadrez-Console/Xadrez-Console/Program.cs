@@ -47,10 +47,8 @@ namespace Xadrez_Console
                         Console.ReadLine();
                     }
                 }
-
-                Tela.Imprimirtabuleiro(partida.Tab);
-
-                Console.ReadLine();
+                Console.Clear();
+                Tela.ImprimirPartida(partida);
             }
             catch (TabuleiroException e)
             {
