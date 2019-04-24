@@ -15,6 +15,12 @@ namespace xadrez
             return "T";
         }
 
+        private bool PodeMover(Posicao pos)
+        {
+            Peca p = Tab.Peca(pos);
+            return p == null || p.Cor != Cor;
+        }
+
         public override bool[,] MovimentosPossiveis()
         {
             bool[,] mat = new bool[Tab.Linhas, Tab.Colunas];
@@ -57,7 +63,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Coluna = pos.Coluna + 1;
+                pos.Linha = pos.Coluna + 1;
             }
 
             //ao lado esquerdo
@@ -70,32 +76,10 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Coluna = pos.Coluna - 1;
+                pos.Linha = pos.Coluna - 1;
             }
 
-            //diagonal direita acima
-
-
-
-            //diagonal direita abaixo
-
-
-
-            //diagonal esquerda acima
-
-
-
-            //diagonal esquerda abaixo
-
-
-
             return mat;
-        }
-
-        private bool PodeMover(Posicao pos)
-        {
-            Peca p = Tab.Peca(pos);
-            return p == null || p.Cor != Cor;
         }
     }
 }
